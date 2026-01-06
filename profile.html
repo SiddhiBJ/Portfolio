@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Siddhi | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>Siddhi</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h2>Hi, I'm Siddhi 👋</h2>
+  <p>Computer Science Student | Web & Java Developer</p>
+  <a href="#projects" class="btn">View My Work</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="card-section">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate Computer Science student who loves creating
+    responsive websites and learning new technologies.
+    I enjoy building real-world projects using HTML, CSS, JavaScript, and Java.
+  </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>Responsive personal portfolio using HTML, CSS & JS.</p>
+    </div>
+
+    <div class="card">
+      <h3>To-Do App</h3>
+      <p>Task management app with JavaScript functionality.</p>
+    </div>
+
+    <div class="card">
+      <h3>Calculator</h3>
+      <p>Interactive calculator using JavaScript.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skill">
+    <span>HTML</span>
+    <div class="progress"><div class="fill html"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>CSS</span>
+    <div class="progress"><div class="fill css"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>JavaScript</span>
+    <div class="progress"><div class="fill js"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Java</span>
+    <div class="progress"><div class="fill java"></div></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="card-section">
+  <h2>Contact Me</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <textarea id="message" placeholder="Your Message"></textarea>
+    <button>Send Message</button>
+  </form>
+
+  <p id="msg"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
